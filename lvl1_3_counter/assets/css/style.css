@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter {
+    width: 30%;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+
+.counter__button {
+    width: 30%;
+    margin: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.counter__result {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.counter__headline {
+    font-size: 3rem;
+}

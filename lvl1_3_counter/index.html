@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section class="counter">
+        <h1 class="counter__headline">Counter</h1>
+        <p class="counter__result">0</p>
+        <div class="counter__allButtons">
+            <div>
+                <button onclick="addOne(event)" class="counter__button">+1</button>
+                <button onclick="reduceOne(event)" class="counter__button">-1</button>
+            </div>
+            <div>
+                <button onclick="addTen(event)" class="counter__button">+10</button>
+                <button onclick="reduceTen(event)" class="counter__button">-10</button>
+            </div>
+            <div>
+                <button onclick="addHundred(event)" class="counter__button">+100</button>
+                <button onclick="reduceHundred(event)" class="counter__button">-100</button>
+            </div>
+            <div>
+                <button onclick="reset(event)" class="counter__button">Reset</button>
+                <button onclick="multiTwo(event)" class="counter__button">*2</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
